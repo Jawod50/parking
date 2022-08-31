@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.parent {
+	background-image: url("../src/assets/images/bg01.jpg");
+	min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+	border: 2px solid black;
+	margin: 50px 0px;
+	padding-bottom: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-red {
+	background-color: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-green {
+	background-color: green;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-gray {
+	background-color: gray;
+}
+.txt-red {
+	color: rgb(255, 125, 125);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-center-container {
+	display: flex;
+	justify-content: center;
+}
+.section-container {
+	border: 1px solid black;
+	background-color: #548687;
+	text-align: center;
+	padding: 50px 0px;
+	margin: 10px 0px;
+	width: 1100px;
+	font-weight: bold;
+}
+
+.parking-parent-container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.parking-container {
+	display: flex;
+	width: 1100px;
+	flex-wrap: wrap;
+	border: 1px solid black;
+}
+
+.map-block {
+	width: 98px;
+	height: 98px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-self: center;
+	border: 1px solid black;
+}
+
+.car-img-container {
+	width: 50px;
+	margin-top: 10px;
+}
+
+.parking-record-padding {
+	padding-top: 20px;
 }
